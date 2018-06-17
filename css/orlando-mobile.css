@@ -117,6 +117,30 @@
     footer{
         margin-top: 60px;
     }
+    .copyright-mobile p{
+        font-size: 10px;
+        line-height: 0;
+    }
+    footer .row p {
+        text-align: center;
+        line-height: 20px;
+    }
+    .copyright-mobile .pull-left{
+        float:inherit;
+    }
+    footer .row p:first-child {
+        margin-top: 10px;
+        margin-left: 46px;
+    }
+    footer .row p:nth-child(2){
+        margin-right: 59px;
+    }
+    footer .text-roxo{
+        margin-right:10px;
+    }
 
+    footer .row {
+        margin: 0;
+    }
 
 }
