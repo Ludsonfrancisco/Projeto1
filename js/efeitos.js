@@ -47,6 +47,16 @@ $(document).ready(function () {
         $('#btn-news-next').on("click", function () {
 
             owl.next();
-        })
+        });
+
+    $("#page-up").on("click", function(event) {
+
+        $("body").animated({
+            scrollTop:0
+        }, 1000);
+
+        event.preventDefault();
+    });
+
 
 });

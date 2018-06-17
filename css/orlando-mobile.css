@@ -142,5 +142,52 @@
     footer .row {
         margin: 0;
     }
+    footer .list-socials{
+        position:  absolute;
+        width: 100%;
+        left: 0;
+        top: 50px;
+        text-align: center;
+    }
+    footer .col-md-10{
+        padding: 0;
+    }
+    footer .list-socials a {
+        width: 45px;
+        height: 45px;
+        border-radius:50%;
+    }
+    footer .list-socials i {
+        font-size: 30px;
+        margin-top: 9px;
+    }
+    footer .row-cinza-claro{
+        height: 157px;
+    }
+    footer .btn-footer{
+        width: 100%;
+        background-color: #11171D;
+        height: 44px;
+        line-height: 35px;
+    }
+    footer .col-xs-6{
+        padding-right:5px;
+        padding: 0;
+    }
+    footer .col-xs-6:last-child{
+        padding-right: 0px;
+        padding-left: 5px;
+    }
+    footer .visible-xs{
+        margin-top: -10px;
+    }
+    header .header-black{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    footer .page-up{
+        display: inline-block!important;
+    }
 
 }
