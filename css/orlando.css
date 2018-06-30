@@ -404,7 +404,104 @@ video {
     display: none!important;
 }
 
+/*SHOP*/
+.text-arial-cinza{
+    font-family: Arial;
+    font-size: 12px;
+    color: #666;
+}
+#destaque-produtos-container{
+    position: relative;
+    margin-top: 20px;
+}
+#destaque-produtos{
+    margin: 30px auto;
+}
+#destaque-produtos .col-imagem{
+    text-align: center;
+}
+#destaque-produtos .col-descricao {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+#destaque-produtos .col-descricao h2 {
+    font-family: Arial;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+#destaque-produtos .col-descricao .box-valor{
+    width: 100%;
+    position: relative;
+    top: -15px;
+}
+#destaque-produtos .col-descricao .box-valor .text-parcelas{
+    position: absolute;
+    bottom: 0px;
+}
+#destaque-produtos .col-descricao .box-valor .text-total{
+    position: absolute;
+    bottom: -15px;
+}
+#destaque-produtos .col-descricao .box-valor .text-reias{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6E3EA4;
+    position: absolute;
+    top: 13px;
+    left: 28px  ;
+}
+#destaque-produtos .col-descricao .box-valor .text-valor{
+    position: absolute;
+    top: -17px;
+    left: 52px;
+    font-family: Arial;
+    font-size: 50px;
+    color: #6E3EA4;
+}
+#destaque-produtos .col-descricao .box-valor .text-valor-centavos {
+    font-family: Arial;
+    font-size: 30px;
+    color: #6E3EA4;
+    position: relative;
+    top: -47px;
+    left: 177px;
+    width: 30px;
 
+}
+#destaque-produtos .col-descricao .btn-comprar{
+    font-size: 26px;
+    color: #6E3EA4;
+    position: relative;
+    bottom: -30px;
+    text-align: center;
+    right: 15px;
+}
+#destaque-produtos .col-descricao .btn-comprar .fa{
+    font-size: 34px;
+
+}
+#slide-destaque{
+    position: relative;
+    bottom: 150px;
+}
+#slide-destaque #btn-destaque-prev{
+    margin-left: 90px;
+    border: none;
+    background-color: white;
+    font-size: 50px;
+}
+#slide-destaque #btn-destaque-next{
+    margin-right: 90px;
+    border: none;
+    background-color: white;
+    font-size: 50px;
+}
+
+/*TESTE SLIDER*/
 
 
 

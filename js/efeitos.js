@@ -72,6 +72,5 @@ $(document).ready(function () {
         $("header").toggleClass("open-search");
         $("#input-search-mobile").focus();
 
-    })
-
+    });
 });
