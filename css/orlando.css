@@ -419,10 +419,11 @@ video {
 }
 #destaque-produtos .col-imagem{
     text-align: center;
+    margin-left:250px ;
 }
 #destaque-produtos .col-descricao {
     position: absolute;
-    right: 0;
+    right: -100px;
     bottom: 20px;
 }
 #destaque-produtos .col-descricao h2 {
@@ -484,21 +485,21 @@ video {
     font-size: 34px;
 
 }
-#slide-destaque{
+#btn-destaque-next, #btn-destaque-prev{
+    border: none;
+    background-color: white;
+    font-size: 50px;
     position: relative;
     bottom: 150px;
 }
-#slide-destaque #btn-destaque-prev{
+#btn-destaque-prev{
     margin-left: 90px;
-    border: none;
-    background-color: white;
-    font-size: 50px;
 }
-#slide-destaque #btn-destaque-next{
+#btn-destaque-next{
     margin-right: 90px;
-    border: none;
-    background-color: white;
-    font-size: 50px;
+}
+.owl-carousel .owl-item img{
+    width: auto;
 }
 
 /*TESTE SLIDER*/
