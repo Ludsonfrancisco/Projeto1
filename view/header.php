@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="lib/OwlCarousel2/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="lib/OwlCarousel2/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/raty/lib/jquery.raty.css">
     <link rel="stylesheet" href="css/orlando.css">
     <link rel="stylesheet" href="css/orlando-mobile.css">
     <link rel="icon" href="img/icon.png">
@@ -91,7 +92,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="videos.php">Videos</a></li>
                     <li><a href="shop.php">Shop</a></li>
-                    <li><a href="teste.php">TESTE</a></li>
+                    <li><a href="teste.php  ">TESTE</a></li>
                     <li><a href="#">Schedule</a></li>
                     <li class="search">
                         <div class="input-group">
